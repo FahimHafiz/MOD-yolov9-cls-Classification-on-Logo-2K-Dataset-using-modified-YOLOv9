@@ -24,4 +24,13 @@ Prediction Sample:
 ![val_batch0_pred_wo_pr](https://github.com/FahimHafiz/Classification-on-Logo-2K-Dataset-using-YOLOv9/assets/39213309/6314e0e9-a21c-4edd-b5bc-9fbf4473e4d3)
 
 
-
+# Run "logo_classification_with_preprocessing_yolov9.ipynb":
+In this colab file, we added an extra segment that will apply different data preprocessings on the datasets.
+The results generated from this codes are:
+confusion matrix:
+![confusion_matrix_w_pr](https://github.com/FahimHafiz/Classification-on-Logo-2K-Dataset-using-YOLOv9/assets/39213309/1fd798a9-6e87-41e6-b4b4-210924a1c8e1)
+Results:
+![results_w_pr](https://github.com/FahimHafiz/Classification-on-Logo-2K-Dataset-using-YOLOv9/assets/39213309/7c1ead38-d0b7-43ba-acdf-145d83d38706)
+Prediction Sample:
+![val_batch0_pred_w_pr](https://github.com/FahimHafiz/Classification-on-Logo-2K-Dataset-using-YOLOv9/assets/39213309/2aa272b7-8715-4d95-adad-6f9a3bed26f7)
+This data preprocessing approach can predict correctly around 60\% which is better on the test sets compared to before.
