@@ -13,3 +13,15 @@ The datasets are organised according to subclasses as follows:
 Augmentations such as flipping, rotating and grayscaling & high pass filters were used. Also, each subclasses have 400 images after preprocessing and augmentation.
 
 # Run "logo_classification_without_preprocessing_yolov9.ipynb":
+This colab file trains the dataset without applying any augmentations, filtering. You can simply set their directories according to your own and import the custom yaml file given in the repository. Then, you can simply run all the sections to train the YOLO model and classify the datasets!
+
+The results generated from this codes are:
+confusion matrix:
+![confusion_matrix_wo_pr](https://github.com/FahimHafiz/Classification-on-Logo-2K-Dataset-using-YOLOv9/assets/39213309/f5172b93-c18d-442c-aca7-070778358787)
+Results:
+![results_wo_pr](https://github.com/FahimHafiz/Classification-on-Logo-2K-Dataset-using-YOLOv9/assets/39213309/fdbfcd18-8351-4af5-ab25-b08fbe31c0de)
+Prediction Sample:
+![val_batch0_pred_wo_pr](https://github.com/FahimHafiz/Classification-on-Logo-2K-Dataset-using-YOLOv9/assets/39213309/6314e0e9-a21c-4edd-b5bc-9fbf4473e4d3)
+
+
+
