@@ -6,6 +6,7 @@ YOLOv9 do not have the classification module yet. In this work, we modified the 
 
 # Dataset Organisations
 The datasets are organised according to subclasses as follows:
+
 ![image](https://github.com/FahimHafiz/Classification-on-Logo-2K-Dataset-using-YOLOv9/assets/39213309/e98ceed0-aae1-481a-9693-377fb0266bae)
 
 # Dataset Preprocessing
